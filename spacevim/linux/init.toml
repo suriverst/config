@@ -39,10 +39,10 @@ default_height = 30
 [[layers]]
 name = 'lang#python'
 python_file_head = [
-    '#!/usr/bin/env python',
-    '# -*- coding: utf-8 -*-',
-    '',
-    ''
+  '#!/usr/bin/env python',
+  '# -*- coding: utf-8 -*-',
+  '',
+  ''
 ]
 format_on_save = true
 
@@ -54,3 +54,9 @@ name = "lang#batch"
 
 [[layers]]
 name = "lang#sh"
+bash_file_head = [
+  '#!/usr/bin/env bash',
+  '# -*- coding: utf-8 -*-',
+  '',
+  ''
+]
