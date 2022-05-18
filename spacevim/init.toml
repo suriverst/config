@@ -71,6 +71,7 @@ bash_file_head = [
    '# Version          : 1',
    '# Description      : ',
    '# Usage            : ',
+   '# Example          : ',
    '',
    ''
 ]
