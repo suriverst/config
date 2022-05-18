@@ -37,6 +37,9 @@ default_position = 'top'
 default_height = 30
 
 [[layers]]
+name = "debug"
+
+[[layers]]
 name = 'lang#python'
 python_file_head = [
   '#!/usr/bin/env python',
@@ -53,10 +56,21 @@ name = "lang#dockerfile"
 name = "lang#batch"
 
 [[layers]]
+name = "git"
+
+[[layers]]
 name = "lang#sh"
 bash_file_head = [
-  '#!/usr/bin/env bash',
-  '# -*- coding: utf-8 -*-',
-  '',
-  ''
+   '#!/usr/bin/env bash',
+   '# -*- coding: utf-8 -*-',
+   '',
+   '# Author           : sur',
+   '# Email            : sur@gmail.com'
+   '# Last modified    : `strftime("%Y-%m-%d %H:%M")`',
+   '# Filename         : `expand("%:t")`',
+   '# Version          : 1',
+   '# Description      : ',
+   '# Usage            : ',
+   '',
+   ''
 ]
