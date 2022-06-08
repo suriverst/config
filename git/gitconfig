@@ -1,0 +1,12 @@
+[user]
+	email = suriverst@gmail.com
+	name = sur
+[credential]
+	helper = store
+[merge]
+	tool = nvimdiff
+[core]
+	editor = nvim
+	autocrlf = input
+[commit]
+template = ~/.gitmessage
